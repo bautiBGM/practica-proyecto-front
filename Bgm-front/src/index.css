@@ -52,9 +52,11 @@
 
 body {
   margin: 0;
+  /* background-color: #111827; */
+  background-color: #0b0e14;
 }
 
-#root {
+/* #root {
   width: 1126px;
   max-width: 100%;
   margin: 0 auto;
@@ -63,6 +65,11 @@ body {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+} */
+#root {
+  width: 100%;
+  min-height: 100vh;
   box-sizing: border-box;
 }
 
