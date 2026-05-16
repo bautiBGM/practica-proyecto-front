@@ -1,6 +1,7 @@
 import React from 'react'
 import { TarjetaPiloto } from '../TarjetaPiloto/TarjetaPiloto'
-import react, {useState} from 'react'
+import {imagenesPilotos} from '../../image/imagenesPilotos'
+import react, {useState, useEffect} from 'react'
 
 export const ListaPiloto = () => {
 
@@ -14,8 +15,10 @@ export const ListaPiloto = () => {
         setPilotos(datosPiloto.MRData.DriverTable.Drivers)
     }
 
-    llamarApi()
-
+    useEffect(() => {
+     llamarApi()
+    },[])
+    
 
 
   return (
@@ -29,8 +32,8 @@ export const ListaPiloto = () => {
   }}
   >
     {
-      pilotos.map(piloto => (
-        <TarjetaPiloto piloto={piloto}/>
+      pilotos.map((piloto) => (
+        <TarjetaPiloto key={piloto.driverId} piloto={piloto} imagen={imagenesPilotos[piloto.driverId]}/>
       ))
     }
     </div>

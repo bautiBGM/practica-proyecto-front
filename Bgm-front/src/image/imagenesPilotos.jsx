@@ -1,0 +1,27 @@
+import React from 'react'
+    
+export const imagenesPilotos = {
+    albon: "https://img2.51gt3.com/rac/racer/202503/1f1fd439e5344c7a83faf4a80d09486f.png",
+    alonso: "https://img2.51gt3.com/rac/racer/202503/25ccca7ffa96437aa54f169a4e9338fa.png",
+    antonelli: "https://ratings-images-prod.pulse.ea.com/F1-25/portraits/p8.png?im=FaceCrop,algorithm=dnn,padding=0.7,width=256,height=256",
+    bearman: "https://ratings-images-prod.pulse.ea.com/F1-25/portraits/p15.png?im=FaceCrop,algorithm=dnn,padding=0.7,width=256,height=256",
+    bortoleto: "https://italianismo.com.br/wp-content/uploads/2025/04/Gabriel-Bortoleto.jpg",
+    bottas: "https://www.formula1points.com/images/driver/valtteri-bottas.webp",
+    colapinto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhHSiTwkJqa2Pp5vuSsaseLiSR0KZ3zprsQQ&s",
+    jak_crawford: "https://images.squarespace-cdn.com/content/v1/581a30aad1758e1ed5b96625/2dd9faf1-e03d-4a6a-b077-ea368ebca23e/Jak-Aston-Martin-Suit.png",
+    gasly: "https://img2.51gt3.com/rac/racer/202503/2e2727ea4b564c55a6b5e18a25d7e230.png?x-oss-process=style/_nowm",
+    hadjar: "https://soymotor.com/sites/default/files/2026-03/isack-hadjar-2026.png",
+    hamilton: "https://img2.51gt3.com/rac/racer/202503/0ff8ae7649b447bd8e023f4e31dc4042.png?x-oss-process=style/_nowm",
+    hulkenberg: "https://img2.51gt3.com/rac/racer/202503/737aac3065d74096b767308cf4c3164e.png?x-oss-process=style/_nowm",
+    lawson: "https://img2.51gt3.com/rac/racer/202503/3a6b5ab450b040feb7cab3cb50e9a53f.png?x-oss-process=style/_nowm",
+    leclerc: "https://img2.51gt3.com/rac/racer/202503/fe2de9975d864e38acfd9933164954a6.png?x-oss-process=style/_nowm",
+    arvid_lindblad: "https://images.daznservices.com/di/library/DAZN_News/34/83/arvid-lindblad_1w4am04reejii1p75pf4a4d3qt.jpg?t=-660814393", 
+    norris: "https://www.grandprix.com.au/uploads/images/_driverProfile/394785/FOR-GP26-DRIVER_PROFILE-M-Lando_Norris.webp",
+    ocon: "https://img2.51gt3.com/rac/racer/202503/34d4155677ae4874aae0240f9b366cc3.png?x-oss-process=style/_nowm", 
+    piastri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQvpP3jKa1iVi_m5Yv0MFH-OZ-qa0PRb89Q&s",
+    perez: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4khdiG4TNspMAeLuDsUGvEd7I58nq6nZcWw&s",
+    russell: "https://img2.51gt3.com/rac/racer/202503/f10f01a1704147ca90ab3a4325f38785.png",
+    sainz: "https://cdn-1.motorsport.com/images/mgl/2jXPqrg6/s8/carlos-sainz-williams.jpg", 
+    stroll: "https://img2.51gt3.com/rac/racer/202503/2869081e10e6412894446d1320c9cb44.png?x-oss-process=style/_nhd_en",
+    max_verstappen: "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2024/11/24/nrqoxx9as35r5ry8ashm/max-verstapen-2024-f1-world-champion-four",
+}

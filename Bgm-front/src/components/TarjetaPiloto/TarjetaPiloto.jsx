@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const TarjetaPiloto = ({piloto}) => {
+export const TarjetaPiloto = ({piloto, imagen}) => {
   return (
         <div
   style={{backgroundColor: '#15151E',border: '2px solid #E10600',borderRadius: '10px',padding: '20px',width: '300px',fontFamily: 'sans-serif',
@@ -21,7 +21,7 @@ export const TarjetaPiloto = ({piloto}) => {
     {piloto.givenName} {piloto.familyName}
   </h1>
 
-  <img src="/pilots/albon.jpg" alt={piloto.familyName}
+  <img src={imagen || imagenDefault} alt={piloto.familyName}
     style={{width: '150px',height: '150px',objectFit: 'cover',borderRadius: '15px',border: '1px solid white',marginBottom: '2px'
     }}
   />
